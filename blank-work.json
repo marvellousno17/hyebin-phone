@@ -379,6 +379,16 @@
       "icon": ""
     },
     {
+      "id": "bubble",
+      "name": "버블",
+      "installed": false,
+      "listed": false,
+      "visible": false,
+      "dock": false,
+      "folder": "",
+      "icon": ""
+    },
+    {
       "id": "telegram",
       "name": "Telegram",
       "installed": false,
