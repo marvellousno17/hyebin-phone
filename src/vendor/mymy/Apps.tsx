@@ -9,6 +9,9 @@ import {
   Settings,
   Users,
   MessageCircle,
+  MessageCirclePlus,
+  MessagesSquare,
+  ShoppingBag,
   MoreHorizontal,
   Heart,
   Home,
@@ -23,7 +26,6 @@ import {
   X,
   Smile,
   Menu,
-  Compass,
 } from "lucide-react";
 import type { SkinProps } from "../../AppSkins";
 import { Avatar, Media } from "../../skins/shared";
@@ -68,6 +70,10 @@ export function MymyKakao(p: SkinProps) {
     [query, setQuery] = useState(""),
     [menu, setMenu] = useState(false);
   const list = grouped(p.items),
+    totalUnread = p.items.reduce(
+      (sum, i) => sum + (Number.parseInt(i.meta.unread || "", 10) || 0),
+      0,
+    ),
     messages = [
       ...p.items.filter((i) => i.title === p.thread),
       ...sent.flatMap((raw, index) => {
@@ -136,7 +142,7 @@ export function MymyKakao(p: SkinProps) {
                   )}
                   {m.outgoing && run.last && (
                     <span className="kzt">
-                      {m.meta.unread || ""}
+                      <span className="kzun">{m.meta.unread || ""}</span>
                       <br />
                       {m.time.slice(-5)}
                     </span>
@@ -219,6 +225,9 @@ export function MymyKakao(p: SkinProps) {
                 >
                   <Search size={21} />
                 </button>
+                <button aria-label="新建聊天" onClick={() => setMenu(!menu)}>
+                  <MessageCirclePlus size={21} />
+                </button>
                 {p.creator && (
                   <button aria-label="新增内容" onClick={p.onAdd}>
                     <Plus />
@@ -229,22 +238,6 @@ export function MymyKakao(p: SkinProps) {
                 </button>
               </span>
             </header>
-            <div className="kzkc2">
-              {["好友", "聊天"].map((t) => (
-                <button
-                  key={t}
-                  className={
-                    "kzkpl " +
-                    (t === tab || (t === "为你推荐" && tab === "推荐")
-                      ? "on"
-                      : "")
-                  }
-                  onClick={() => setTab(t)}
-                >
-                  {t}
-                </button>
-              ))}
-            </div>
             {query !== "" && (
               <input
                 className="mymy-search"
@@ -256,6 +249,15 @@ export function MymyKakao(p: SkinProps) {
             )}
           </div>
           <div className="kzkb">
+            {tab === "好友" && (
+              <div className="kzme">
+                <Avatar name={p.owner || "机主"} />
+                <span className="kzkn">
+                  <b>{p.owner || "机主"}</b>
+                  <small>내일 라이브에서 만나요 💛</small>
+                </span>
+              </div>
+            )}
             <div className="kzksec">
               {tab === "好友" ? "好友" : "全部聊天"} {list.length}
             </div>
@@ -286,20 +288,26 @@ export function MymyKakao(p: SkinProps) {
             {!list.length && <Blank />}
           </div>
           <nav className="kzknv">
-            {[Users, MessageCircle, Compass, Grid, MoreHorizontal].map(
-              (Icon, i) => (
-                <button
-                  key={i}
-                  aria-label={["好友", "聊天", "发现", "更多功能", "设置"][i]}
-                  className={(tab === "好友" ? 0 : 1) === i ? "on" : ""}
-                  onClick={() =>
-                    i < 2 ? setTab(["好友", "聊天"][i]) : setMenu(true)
-                  }
-                >
-                  <Icon />
-                </button>
-              ),
-            )}
+            {[
+              { Icon: Users, label: "好友", badge: 0 },
+              { Icon: MessageCircle, label: "聊天", badge: totalUnread },
+              { Icon: MessagesSquare, label: "开放聊天", badge: 0 },
+              { Icon: ShoppingBag, label: "购物", badge: 0 },
+              { Icon: MoreHorizontal, label: "更多", badge: 0 },
+            ].map(({ Icon, label, badge }, i) => (
+              <button
+                key={label}
+                aria-label={label}
+                className={(tab === "好友" ? 0 : 1) === i ? "on" : ""}
+                onClick={() =>
+                  i < 2 ? setTab(["好友", "聊天"][i]) : setMenu(true)
+                }
+              >
+                <Icon />
+                <span className="kzklab">{label}</span>
+                {badge > 0 && <i className="kzkbd">{badge}</i>}
+              </button>
+            ))}
           </nav>
           {menu && (
             <div className="mymy-local-menu">
