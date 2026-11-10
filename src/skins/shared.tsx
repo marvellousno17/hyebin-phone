@@ -111,10 +111,13 @@ export function Media({
   className?: string;
 }) {
   const src = safeMedia(item.media);
+  const image =
+    src.startsWith("data:image/") ||
+    /\.(png|jpe?g|webp|gif)$/i.test(src.split("?")[0] ?? "");
   return src ? (
     item.kind === "audio" ? (
       <audio className={className} controls src={src} />
-    ) : item.kind === "video" ? (
+    ) : item.kind === "video" && !image ? (
       <video
         className={className}
         controls

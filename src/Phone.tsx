@@ -57,11 +57,13 @@ import { getApp, type AppPlugin } from "./registry";
 import {
   initialRuntime,
   safeMedia,
+  safeYoutubeId,
   type Work,
   type Item,
   type Runtime,
   type UiValue,
 } from "./schema";
+import { YoutubeEmbed } from "./youtube";
 import { dispatch, choose, visible, advance } from "./engine";
 import { db } from "./persistence";
 export function AppIcon({
@@ -829,11 +831,18 @@ function AppSearch({
   );
 }
 function Media({ item }: { item: Item }) {
+  const videoId = safeYoutubeId(item.meta?.videoId ?? "");
+  if (videoId) {
+    return <YoutubeEmbed videoId={videoId} title={item.title} autoplay />;
+  }
   const src = safeMedia(item.media);
+  const image =
+    src.startsWith("data:image/") ||
+    /\.(png|jpe?g|webp|gif)$/i.test(src.split("?")[0] ?? "");
   return src ? (
     item.kind === "audio" ? (
-      <audio controls src={src} />
-    ) : item.kind === "video" ? (
+      <audio controls autoPlay src={src} />
+    ) : item.kind === "video" && !image ? (
       <video controls playsInline src={src} />
     ) : (
       <img loading="lazy" src={src} alt={item.title} />

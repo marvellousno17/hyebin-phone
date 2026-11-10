@@ -29,15 +29,15 @@ export function AudioPlayer({ p, item }: { p: SkinProps; item: Item }) {
   };
   useEffect(() => {
     const audio = element.current;
-    if (
-      !audio ||
-      typeof saved !== "number" ||
-      !Number.isFinite(saved) ||
-      saved <= 0
-    )
-      return;
+    if (!audio) return;
     const restore = () => {
-      if (audio.readyState < 1) return;
+      if (
+        typeof saved !== "number" ||
+        !Number.isFinite(saved) ||
+        saved <= 0 ||
+        audio.readyState < 1
+      )
+        return;
       last.current = saved;
       audio.currentTime = Math.min(
         saved,
@@ -45,13 +45,22 @@ export function AudioPlayer({ p, item }: { p: SkinProps; item: Item }) {
       );
     };
     restore();
+    const play = () => {
+      restore();
+      audio.play().catch(() => {});
+    };
     audio.addEventListener("loadedmetadata", restore, { once: true });
-    return () => audio.removeEventListener("loadedmetadata", restore);
+    audio.addEventListener("canplay", play, { once: true });
+    return () => {
+      audio.removeEventListener("loadedmetadata", restore);
+      audio.removeEventListener("canplay", play);
+    };
   }, [item.id]);
   return (
     <audio
       ref={element}
       controls
+      autoPlay
       src={safeMedia(item.media)}
       aria-label={`播放${item.title}`}
       onTimeUpdate={(e) => {

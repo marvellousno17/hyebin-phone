@@ -7,7 +7,7 @@ import {
   visible,
   validateGraph,
 } from "./engine";
-import { initialRuntime, validateWork, safeMedia } from "./schema";
+import { initialRuntime, validateWork, safeMedia, safeYoutubeId } from "./schema";
 import { parseChat, parseCsv } from "./chat";
 import { registry } from "./registry";
 describe("story progression", () => {
@@ -95,6 +95,12 @@ describe("import and schema safety", () => {
     expect(safeMedia("audio/../work.json")).toBe("");
     expect(safeMedia("/audio/subin-humming.mp3")).toBe("");
     expect(safeMedia("https://example.com/audio/x.mp3")).toBe("");
+  });
+  it("accepts only plain YouTube video ids", () => {
+    expect(safeYoutubeId("oZpYEEcvu5I")).toBe("oZpYEEcvu5I");
+    expect(safeYoutubeId("https://youtu.be/oZpYEEcvu5I")).toBe("");
+    expect(safeYoutubeId("oZpYEEcvu5I?autoplay=1")).toBe("");
+    expect(safeYoutubeId("")).toBe("");
   });
   it("parses script and explains invalid lines", () => {
     const r = parseChat(

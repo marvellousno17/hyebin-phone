@@ -202,3 +202,7 @@ const LOCAL_MEDIA =
 export function safeMedia(value: string) {
   return DATA_MEDIA.test(value) || LOCAL_MEDIA.test(value) ? value : "";
 }
+const YOUTUBE_ID = /^[A-Za-z0-9_-]{11}$/;
+export function safeYoutubeId(value: string) {
+  return YOUTUBE_ID.test(value) ? value : "";
+}

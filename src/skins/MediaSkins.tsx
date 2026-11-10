@@ -3,6 +3,7 @@ import { useSkinState } from "../skinState";
 import {
   Bookmark,
   Check,
+  ChevronLeft,
   Compass,
   Heart,
   Home,
@@ -17,7 +18,8 @@ import {
   Video,
 } from "lucide-react";
 import { useState } from "react";
-import { safeMedia, type Item } from "../schema";
+import { safeMedia, safeYoutubeId, type Item } from "../schema";
+import { YoutubeEmbed } from "../youtube";
 import {
   Avatar,
   Empty,
@@ -243,6 +245,13 @@ export function NeteaseSkin(p: Props) {
 export function YouTubeSkin(p: Props) {
   const { tab, setTab, q, setQ, items } = useContent(p, "首页");
   const [category, setCategory] = useState("全部");
+  const [watching, setWatching] = useState<Item | null>(null);
+  const open = (i: Item) => {
+    if (safeYoutubeId(meta(i, "videoId"))) {
+      setWatching(i);
+      p.onRead(i.id);
+    } else p.onItem(i);
+  };
   const list = items.filter((i) =>
     tab === "Shorts"
       ? i.folder === "Shorts"
@@ -252,6 +261,33 @@ export function YouTubeSkin(p: Props) {
           ? i.favorite || i.folder === "播放列表"
           : category === "全部" || i.folder === category,
   );
+  if (watching) {
+    return (
+      <div className="catalog-skin youtube-ui">
+        <header className="app-nav catalog-nav">
+          <button aria-label="返回" onClick={() => setWatching(null)}>
+            <ChevronLeft size={22} />
+          </button>
+          <strong>{p.name}</strong>
+          <span />
+        </header>
+        <div className="catalog-scroll">
+          <YoutubeEmbed
+            videoId={meta(watching, "videoId")}
+            title={watching.title}
+            autoplay
+          />
+          <div className="youtube-watch-info">
+            <h2>{watching.title}</h2>
+            <small>
+              {watching.sender} · {meta(watching, "views", "—")} 次播放
+            </small>
+            {watching.body ? <p>{watching.body}</p> : null}
+          </div>
+        </div>
+      </div>
+    );
+  }
   return (
     <div className="catalog-skin youtube-ui">
       <Header p={p} />
@@ -273,11 +309,11 @@ export function YouTubeSkin(p: Props) {
         <div className={tab === "Shorts" ? "youtube-shorts" : "youtube-videos"}>
           {list.map((i) => (
             <article key={i.id}>
-              <button className="youtube-thumb" onClick={() => p.onItem(i)}>
+              <button className="youtube-thumb" onClick={() => open(i)}>
                 <Media item={i} />
                 {meta(i, "duration") && <time>{meta(i, "duration")}</time>}
               </button>
-              <button className="youtube-byline" onClick={() => p.onItem(i)}>
+              <button className="youtube-byline" onClick={() => open(i)}>
                 <Avatar name={i.sender} />
                 <div>
                   <strong>{i.title}</strong>

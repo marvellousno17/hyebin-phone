@@ -1,5 +1,6 @@
 export { WeatherSkin, HealthSkin } from "./CalibratedSystemApps";
 import { AudioPlayer, useTrack } from "../audio";
+import { YoutubeEmbed } from "../youtube";
 import { useSkinState } from "../skinState";
 import {
   Calendar,
@@ -27,7 +28,7 @@ import {
 } from "lucide-react";
 import { useEffect, useState } from "react";
 import { download } from "../io";
-import { safeMedia, type Item } from "../schema";
+import { safeMedia, safeYoutubeId, type Item } from "../schema";
 import {
   Add,
   Avatar,
@@ -769,6 +770,15 @@ export function MusicSkin(p: Props) {
         )}
         <Empty items={items} />
       </div>
+      {song &&
+        !safeMedia(song.media) &&
+        safeYoutubeId(meta(song, "videoId")) && (
+          <YoutubeEmbed
+            videoId={meta(song, "videoId")}
+            title={song.title}
+            autoplay
+          />
+        )}
       {song && (
         <div className="native-now-playing">
           <button onClick={() => p.onItem(song)}>
@@ -777,7 +787,7 @@ export function MusicSkin(p: Props) {
           </button>
           {song.kind === "audio" && safeMedia(song.media) ? (
             <AudioPlayer p={p} item={song} />
-          ) : (
+          ) : safeYoutubeId(meta(song, "videoId")) ? null : (
             <button onClick={() => p.onItem(song)}>查看歌曲内容</button>
           )}
           <button
