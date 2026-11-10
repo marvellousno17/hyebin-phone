@@ -195,10 +195,10 @@ export function makeItem(partial: Partial<Item> = {}): Item {
 export function validateWork(input: unknown): Work {
   return workSchema.parse(input);
 }
+const DATA_MEDIA =
+  /^data:(image\/(png|jpeg|webp|gif)|audio\/(mpeg|mp3|wav|ogg|webm|mp4)|video\/(mp4|webm));base64,[a-zA-Z0-9+/=\s]+$/;
+const LOCAL_MEDIA =
+  /^(?:\.\/)?(?:audio|media)\/[A-Za-z0-9._-]+\.(?:mp3|wav|ogg|m4a|mpeg|webm|mp4)$/i;
 export function safeMedia(value: string) {
-  return /^data:(image\/(png|jpeg|webp|gif)|audio\/(mpeg|mp3|wav|ogg|webm|mp4)|video\/(mp4|webm));base64,[a-zA-Z0-9+/=\s]+$/.test(
-    value,
-  )
-    ? value
-    : "";
+  return DATA_MEDIA.test(value) || LOCAL_MEDIA.test(value) ? value : "";
 }
