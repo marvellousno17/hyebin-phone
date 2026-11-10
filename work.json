@@ -202,9 +202,9 @@
     {
       "id": "netflix",
       "name": "Netflix",
-      "installed": true,
+      "installed": false,
       "listed": true,
-      "visible": true,
+      "visible": false,
       "dock": false,
       "folder": "",
       "icon": ""
@@ -232,9 +232,9 @@
     {
       "id": "toss",
       "name": "토스",
-      "installed": true,
+      "installed": false,
       "listed": true,
-      "visible": true,
+      "visible": false,
       "dock": false,
       "folder": "",
       "icon": ""
