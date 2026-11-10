@@ -8619,7 +8619,7 @@
         "sender": "郑受彬",
         "avatar": "",
         "kind": "audio",
-        "media": "audio/subin-humming.mp3",
+        "media": "./audio/subin-humming.mp3",
         "hidden": false,
         "unlock": "",
         "password": "",
