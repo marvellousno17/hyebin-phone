@@ -8608,29 +8608,6 @@
         "comments": []
       },
       {
-        "id": "music-humming",
-        "title": "（未命名录音）自己的语音哼唱",
-        "body": "随口哼的，先录下来了。",
-        "richText": "",
-        "meta": {
-          "duration": "0:38"
-        },
-        "time": "2026-11-08 21:36",
-        "sender": "郑受彬",
-        "avatar": "",
-        "kind": "audio",
-        "media": "./audio/subin-humming.mp3",
-        "hidden": false,
-        "unlock": "",
-        "password": "",
-        "folder": "",
-        "favorite": false,
-        "outgoing": false,
-        "read": false,
-        "likes": 0,
-        "comments": []
-      },
-      {
         "id": "music-ost",
         "title": "《善意的竞争》OST · 片尾曲",
         "body": "最近单曲循环 · 循环 89 次。她说片尾曲一响，眼泪就自己往下掉——杀青这么久了，还是这样。",
