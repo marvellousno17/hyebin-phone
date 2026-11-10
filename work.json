@@ -836,7 +836,7 @@
       {
         "id": "reply-dir-schedule",
         "title": "回复剧本",
-        "body": "档期就这么定：明年 3 到 5 月，留出来。惠利那边也确认了——她说，你定，她就定",
+        "body": "档期先这么约：明年年中入组，提前把那段时间腾出来、预约上。惠利那边也确认了——她说，你定，她就定",
         "richText": "",
         "meta": {
           "replyFor": "chat-director",
@@ -861,7 +861,7 @@
       {
         "id": "reply-dir-script",
         "title": "回复剧本",
-        "body": "最后一幕今晚发你。先说好——不许熬夜看完。状态养好，比什么都重要",
+        "body": "剧本不急，明年开春才全部完成。先把状态养好，比什么都重要——等全稿出来，第一个发你",
         "richText": "",
         "meta": {
           "replyFor": "chat-director",
@@ -3397,13 +3397,13 @@
       {
         "id": "kf4-01",
         "title": "F4🍜",
-        "body": "今天是我们 F4 第一次聚餐满两年的日子。晚上老地方，我订好了",
+        "body": "两周年那天（2 号）大家都没凑齐，补到今晚——老地方，我订好了，菜单先看起来",
         "richText": "",
         "meta": {
           "conversationId": "chat-f4",
           "participants": "hyeri,hyewon,yuri,owner"
         },
-        "time": "2026-11-02 12:15",
+        "time": "2026-11-06 12:15",
         "sender": "姜惠元",
         "avatar": "data:image/webp;base64,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",
         "kind": "text",
@@ -3421,13 +3421,13 @@
       {
         "id": "kf4-02",
         "title": "F4🍜",
-        "body": "菜单我先发群里，想吃的先勾。惠利姐，别又点一桌子辣的",
+        "body": "我先报备：今晚我可能悬。临时加了个行程，还在协调，先别把我那份点上",
         "richText": "",
         "meta": {
           "conversationId": "chat-f4",
           "participants": "hyeri,hyewon,yuri,owner"
         },
-        "time": "2026-11-02 12:17",
+        "time": "2026-11-06 12:17",
         "sender": "吴友利",
         "avatar": "data:image/webp;base64,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",
         "kind": "text",
@@ -3445,13 +3445,13 @@
       {
         "id": "kf4-03",
         "title": "F4🍜",
-        "body": "我请客。都别跟我抢，谁抢我跟谁急",
+        "body": "那我也说一声：今晚有个推不掉的局。我尽量赶——赶不上，你们先吃",
         "richText": "",
         "meta": {
           "conversationId": "chat-f4",
           "participants": "hyeri,hyewon,yuri,owner"
         },
-        "time": "2026-11-02 12:20",
+        "time": "2026-11-06 12:20",
         "sender": "언니",
         "avatar": "data:image/webp;base64,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",
         "kind": "text",
@@ -3469,13 +3469,13 @@
       {
         "id": "kf4-04",
         "title": "F4🍜",
-        "body": "姐姐请客，那我负责吃 😋",
+        "body": "……我今晚可能也不行。家里有点事，得先回去一趟 😞",
         "richText": "",
         "meta": {
           "conversationId": "chat-f4",
           "participants": "hyeri,hyewon,yuri,owner"
         },
-        "time": "2026-11-02 12:22",
+        "time": "2026-11-06 12:22",
         "sender": "郑受彬",
         "avatar": "",
         "kind": "text",
@@ -3493,13 +3493,13 @@
       {
         "id": "kf4-05",
         "title": "F4🍜",
-        "body": "受彬姐姐就负责吃，顺便负责把某位姐姐送回家——上次也是你",
+        "body": "……我也刚收到通知，晚上要补拍。这下四个人，一个不落，全都有事 😭",
         "richText": "",
         "meta": {
           "conversationId": "chat-f4",
           "participants": "hyeri,hyewon,yuri,owner"
         },
-        "time": "2026-11-02 12:24",
+        "time": "2026-11-06 12:24",
         "sender": "姜惠元",
         "avatar": "data:image/webp;base64,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",
         "kind": "text",
@@ -3517,15 +3517,15 @@
       {
         "id": "kf4-06",
         "title": "F4🍜",
-        "body": "那次是她自己要送的 🙄",
+        "body": "行了，这顿先欠着。等都忙完这阵，改天补上——到时候，谁也不许鸽",
         "richText": "",
         "meta": {
           "conversationId": "chat-f4",
           "participants": "hyeri,hyewon,yuri,owner"
         },
-        "time": "2026-11-02 12:25",
-        "sender": "언니",
-        "avatar": "data:image/webp;base64,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",
+        "time": "2026-11-06 12:25",
+        "sender": "吴友利",
+        "avatar": "data:image/webp;base64,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",
         "kind": "text",
         "media": "",
         "hidden": false,
@@ -3685,7 +3685,7 @@
       {
         "id": "kdr-01",
         "title": "金泰熙导演",
-        "body": "受彬，第二季的事，先跟你对一下。拍摄大概放在明年上半年，剧本还在写——边写边发你们看，具体的等公司那边统一通知",
+        "body": "受彬，第二季的事，先跟你对一下。剧本预计明年 2、3 月完成，之后还要沟通拍摄地点，预计明年年中入组——边写边发你们看，具体的等公司那边统一通知",
         "richText": "",
         "meta": {
           "status": "작품 준비 중 🎬",
@@ -3878,7 +3878,7 @@
       {
         "id": "kdr-09",
         "title": "金泰熙导演",
-        "body": "剧本写到第九集了。最后一场戏的台词，我昨晚改到三点——你看到的时候，替我保密",
+        "body": "剧本还在收尾，整体比预想的顺。按这个节奏，明年 2、3 月能全部完成——你看到初稿的时候，替我保密",
         "richText": "",
         "meta": {
           "conversationId": "chat-director",
@@ -3902,7 +3902,7 @@
       {
         "id": "kdr-10",
         "title": "金泰熙导演",
-        "body": "读完了。第九集最后那场，我看哭了，导演",
+        "body": "初稿我都读完了。有一场，我看哭了，导演",
         "richText": "",
         "meta": {
           "conversationId": "chat-director",
@@ -3926,7 +3926,7 @@
       {
         "id": "kdr-11",
         "title": "金泰熙导演",
-        "body": "就剩最后一幕了。这周内写完，写完先给你们俩看",
+        "body": "剩下的部分也不多了。全部完成后，先给你们俩看",
         "richText": "",
         "meta": {
           "conversationId": "chat-director",
@@ -3974,7 +3974,7 @@
       {
         "id": "kdr-13",
         "title": "金泰熙导演",
-        "body": "还有件正事：明年上半年的档期，3 月到 5 月，先给我留出来——拍摄期。惠利那边我也说了同样的话。第一次碰头会，等剧本写完，明年初先碰一次",
+        "body": "还有件正事：明年年中入组开拍，档期提前给我腾出来、先预约上。惠利那边我也说了同样的话。剧本明年 2、3 月完成，之后先碰一次，把拍摄地点沟通了",
         "richText": "",
         "meta": {
           "conversationId": "chat-director",
@@ -3998,7 +3998,7 @@
       {
         "id": "kdr-14",
         "title": "金泰熙导演",
-        "body": "네, 감독님! 상반기 비워 둘게요. 언니랑 같이요（好的导演！上半年我空出来，和姐姐一起）",
+        "body": "네, 감독님! 내년 중반 비워 둘게요. 언니랑 같이요（好的导演！明年年中我空出来，和姐姐一起）",
         "richText": "",
         "meta": {
           "conversationId": "chat-director",
@@ -4022,7 +4022,7 @@
       {
         "id": "kdr-15",
         "title": "金泰熙导演",
-        "body": "好，收到。惠利那边也定了——她说，你定，她就定。档期就这么留着，3 月到 5 月。剧本最后一幕今晚发你——先别急着看，人没事比什么都重要",
+        "body": "好，收到。惠利那边也定了——她说，你定，她就定。档期就这么先留着，明年年中。剧本的事不急，等明年开春完成再说——人没事比什么都重要",
         "richText": "",
         "meta": {
           "conversationId": "chat-director",
@@ -4697,7 +4697,7 @@
       {
         "id": "photo-album-2025-03-14-2",
         "title": "白色情人节的蛋糕",
-        "body": "🎂 白色情人节的蛋糕，牌子上的字是我写的：给「제이 언니」，落款「슬기♡」。用的是剧里的名字——可以光明正大写出来的那种心意。",
+        "body": "🎂 白色情人节的蛋糕，牌子上的字是我写的：给「제이 언니」，落款「슬기♡」。",
         "richText": "",
         "meta": {
           "拍摄": "2025年3月14日",
@@ -4937,7 +4937,7 @@
       {
         "id": "photo-album-2025-01-29-1",
         "title": "东京 · 江边夜景",
-        "body": "🩵 东京的江边，夜里风很凉。拍完这张，在图上留了半颗心——另一半，谁也没问。",
+        "body": "🩵 东京的江边，夜里风很凉。江面上的灯一晃一晃的，站着吹了好一会儿风。",
         "richText": "",
         "meta": {
           "拍摄": "2025年1月29日",
@@ -5454,7 +5454,7 @@
       {
         "id": "note-quotes",
         "title": "姐姐语录（她随口说的，我记下来了）",
-        "body": "2026年10月30日 23:58\n\n“累了就靠着姐姐，姐姐不倒。”——片场，我状态最差的那天\n“多亏了瑟琪💛”——2025 年 3 月 17 日，她在自己的帖子下面回我的，当着所有人\n“梦到你了。”——2025 年 3 月 24 日，她粉丝破千万那天回我的（千万个人都看着呢）\n“花有什么好送的……向日葵？那个可以。”——去年她生日，我试探着问的\n“你那场戏要是敢受伤，以后你拍戏我全跟组。”——杀青宴，她喝了一点酒\n“梦里也见。”——每天睡前的最后一句，是她先开始说的\n\n（这些话，她说完就忘了。我替她记着。）",
+        "body": "2026年10月30日 23:58\n\n“多亏了瑟琪💛”——2025 年 3 月 17 日，她在自己的帖子下面回我的，当着所有人\n“梦到你了。”——2025 年 3 月 24 日，她粉丝破千万那天回我的（千万个人都看着呢）\n\n（这些话，她说完就忘了。我替她记着。）",
         "richText": "",
         "meta": {},
         "time": "2026-10-30 23:58",
@@ -5646,11 +5646,11 @@
       },
       {
         "id": "cal-1102",
-        "title": "（취소）언니랑 약속 — 비 때문에",
-        "body": "原定和姐姐的约会，因为一场大雨取消了。惠利刚下播，受彬就跑来报备：今天，见不成了。",
+        "title": "（취소）언니랑 음악 페스티벌 — 비 때문에",
+        "body": "9月6日 · 原定和姐姐一起去看的露天音乐节，因为一场大雨取消了。票是早就买好的，最后两个人谁也没去成——这场雨，记到现在。",
         "richText": "",
         "meta": {},
-        "time": "2026-11-02 18:00",
+        "time": "2026-09-06 18:00",
         "sender": "郑受彬",
         "avatar": "",
         "kind": "event",
@@ -5667,11 +5667,11 @@
       },
       {
         "id": "cal-s2-hold",
-        "title": "明年上半年 · S2 拍摄期（预留）",
-        "body": "导演协调中：明年 3–5 月留给《善意的竞争2》拍摄。第一次碰头会排在剧本完成后、明年初。备注：姐姐那边也是同一句——『你定，我就定。』",
+        "title": "明年年中 · S2 拍摄期（预留）",
+        "body": "导演协调中：剧本预计明年 2–3 月完成，之后还要沟通拍摄地点，预计明年年中入组开拍——档期提前腾出来、先预约上。备注：姐姐那边也是同一句——『你定，我就定。』",
         "richText": "",
         "meta": {},
-        "time": "2027-03-01 00:00",
+        "time": "2027-07-01 00:00",
         "sender": "郑受彬",
         "avatar": "",
         "kind": "event",
@@ -5688,11 +5688,11 @@
       },
       {
         "id": "cal-read",
-        "title": "《善意的竞争2》第一次围读（暂定）",
-        "body": "2月21日 10:00 · 剧本完成后的第一次碰头围读 · 带台词本 · 导演说，第一次读，就是她们两个人的戏 · 提前一周开始紧张",
+        "title": "《善意的竞争2》第一次碰头（暂定）",
+        "body": "4月10日 10:00 · 剧本完成后的第一次碰头 · 先沟通拍摄地点和日程 · 围读等全稿定了再排 · 提前一周开始紧张",
         "richText": "",
         "meta": {},
-        "time": "2027-02-21 10:00",
+        "time": "2027-04-10 10:00",
         "sender": "郑受彬",
         "avatar": "",
         "kind": "event",
@@ -7183,7 +7183,7 @@
       {
         "id": "call-director-in",
         "title": "金泰熙导演",
-        "body": "呼入 · 6 分 28 秒（导演说剧本快收尾了，问她明年上半年的档期）",
+        "body": "呼入 · 6 分 28 秒（导演说剧本预计明年开春完成，问她明年年中的档期）",
         "richText": "",
         "meta": {
           "number": "手机",
@@ -7445,7 +7445,7 @@
       {
         "id": "dial-director",
         "title": "金泰熙导演",
-        "body": "金泰熙导演：受彬？正好，我刚要找你。剧本最后一幕，今晚发你。\n受彬：好的导演！我今晚就看。\n金泰熙导演：明年上半年的档期，空出来了？惠利那边说，你定，她就定。\n受彬：空出来了！我和姐姐一起。\n金泰熙导演：好，那就这么定。别熬夜看剧本，眼睛要紧。（通话结束）",
+        "body": "金泰熙导演：受彬？正好，我刚要找你。剧本还在收尾，大概明年 2、3 月全部完成，你别急着等。\n受彬：好的导演！完成了我第一个看。\n金泰熙导演：明年年中入组的档期，提前空出来。惠利那边说，你定，她就定。\n受彬：空出来了！我和姐姐一起。\n金泰熙导演：好，那就这么定。别熬夜，眼睛要紧。（通话结束）",
         "richText": "",
         "meta": {
           "role": "dialscript",
@@ -7747,7 +7747,7 @@
       {
         "id": "co-01",
         "title": "妈妈",
-        "body": "天冷，多穿点。圣诞那天，你要是带朋友回家吃饭，提前跟妈说一声，妈多做两个菜",
+        "body": "天冷，多穿点。妈这边没什么大事，你别一趟一趟往回跑",
         "richText": "",
         "meta": {
           "conversationId": "chat-mom",
@@ -7771,7 +7771,7 @@
       {
         "id": "co-02",
         "title": "妈妈",
-        "body": "妈，上次来家里的那个姐姐，你还记得吗",
+        "body": "妈，你就别操心我了。这几天我多陪陪你",
         "richText": "",
         "meta": {
           "conversationId": "chat-mom",
@@ -7795,7 +7795,7 @@
       {
         "id": "co-03",
         "title": "妈妈",
-        "body": "惠利嘛，怎么不记得。有礼貌，还帮我择菜。她什么时候再来家里吃饭？",
+        "body": "陪什么陪。妈就一句话：你好好工作，别因为陪我，把正事耽误了——你好好工作，妈比吃什么药都高兴",
         "richText": "",
         "meta": {
           "conversationId": "chat-mom",
@@ -7819,7 +7819,7 @@
       {
         "id": "co-04",
         "title": "妈妈",
-        "body": "……我问问她",
+        "body": "……知道了。我忙完这一阵，就回来陪你",
         "richText": "",
         "meta": {
           "conversationId": "chat-mom",
@@ -7843,7 +7843,7 @@
       {
         "id": "co-05",
         "title": "妈妈",
-        "body": "问的时候大方点。人家是姐姐，你也是大人了",
+        "body": "这才对。吃饭别凑合，天冷记得加衣服",
         "richText": "",
         "meta": {
           "conversationId": "chat-mom",
@@ -8375,27 +8375,6 @@
         "comments": []
       },
       {
-        "id": "wallet-movie",
-        "title": "🎬 电影票 × 2",
-        "body": "2月1日 21:40 场 · 7排 8座 / 9座（连座）· 备注：她全程没怎么看电影，一直在偷吃我的爆米花",
-        "richText": "",
-        "meta": {},
-        "time": "2026-02-01 21:40",
-        "sender": "郑受彬",
-        "avatar": "",
-        "kind": "order",
-        "media": "",
-        "hidden": false,
-        "unlock": "",
-        "password": "",
-        "folder": "",
-        "favorite": false,
-        "outgoing": false,
-        "read": false,
-        "likes": 0,
-        "comments": []
-      },
-      {
         "id": "wallet-flower",
         "title": "🌻 花语小店 · 预订单",
         "body": "向日葵 11 枝 · 2026年12月25日上午取 · 卡片留言只留了半句：「这次，换我——」",
@@ -8634,7 +8613,7 @@
         "body": "播放列表 · 仅自己可见 · 创建于杀青那天 · 每次和她坐同一辆车，就更新一次\n\n♪ 宣传期车里循环的那首 —— 她哼过副歌 · 循环 217 次\n♪ 下雨天在片场等戏时听的 —— 她睡着了，耳机分了我一只\n♪ 杀青宴回程的歌 —— 那天之后建了这个列表\n♪ （未命名录音）姐姐的语音哼唱 —— 从聊天里存下来的 · 0:23\n♪ 最近单曲循环 —— 歌词里有一句「想见你」· 她不知道",
         "richText": "",
         "meta": {},
-        "time": "2026-02-09 22:00",
+        "time": "2024-11-04 22:00",
         "sender": "郑受彬",
         "avatar": "",
         "kind": "audio",
@@ -10838,30 +10817,6 @@
         "comments": []
       },
       {
-        "id": "bbh-08",
-        "title": "hyeri ✌🏼",
-        "body": "告诉大家一个消息：《善意的竞争》纪念直播，定在明年 2 月了",
-        "richText": "",
-        "meta": {
-          "conversationId": "chat-bubble-hyeri",
-          "participants": "hyeri,owner"
-        },
-        "time": "2026-11-05 22:03",
-        "sender": "언니",
-        "avatar": "data:image/webp;base64,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",
-        "kind": "text",
-        "media": "",
-        "hidden": false,
-        "unlock": "",
-        "password": "",
-        "folder": "",
-        "favorite": false,
-        "outgoing": false,
-        "read": false,
-        "likes": 0,
-        "comments": []
-      },
-      {
         "id": "bbh-09",
         "title": "hyeri ✌🏼",
         "body": "都已经是第二年了。时间真的过得好快",
@@ -10999,7 +10954,7 @@
         {
           "type": "notification",
           "key": "",
-          "value": "KakaoTalk · 언니：수빈아，导演说上半年档期要留出来——你那边听说了吗？制片在等回话了"
+          "value": "KakaoTalk · 언니：수빈아，导演说明年年中的档期要提前留出来——你那边听说了吗？制片在等回话了"
         }
       ],
       "next": [
@@ -11022,7 +10977,7 @@
         {
           "type": "notification",
           "key": "",
-          "value": "KakaoTalk · 金泰熙导演：受彬，明年 3–5 月的档期，制片那边等我回话。你确认一下，我好一起回"
+          "value": "KakaoTalk · 金泰熙导演：受彬，明年年中入组的档期，制片那边等我回话。你确认一下，我好一起回"
         }
       ],
       "next": [
@@ -11051,7 +11006,7 @@
     },
     {
       "id": "act-reply-director",
-      "label": "替她回一句：「导演，上半年我空出来了，您定就行」",
+      "label": "替她回一句：「导演，年中的档期我空出来了，您定就行」",
       "type": "event",
       "event": "",
       "target": "",
@@ -11066,7 +11021,7 @@
         {
           "type": "message",
           "key": "kakao:chat-director",
-          "value": "导演，上半年我空出来了，您定就行。"
+          "value": "导演，年中的档期我空出来了，您定就行。"
         },
         {
           "type": "notification",
@@ -11316,7 +11271,7 @@
         {
           "type": "notification",
           "key": "",
-          "value": "KakaoTalk · 金泰熙导演：……惠利刚跟我说了，手机丢了？人没事就好。档期不急，你们俩的，我都留着。剧本最后一幕今晚发你——不急着看，先休息"
+          "value": "KakaoTalk · 金泰熙导演：……惠利刚跟我说了，手机丢了？人没事就好。档期不急，你们俩的，我都留着。剧本明年开春才完成——不急着看，先休息"
         }
       ],
       "next": [
@@ -11700,7 +11655,7 @@
         {
           "type": "notification",
           "key": "",
-          "value": "她身后，惠利也到了——她是看着定位找来的。她先上下打量了受彬一遍，才看向你：「明年上半年的档期、圣诞——什么都先放一边。」又转向受彬，语气一下子凶起来：「人没事就好。手机丢了能找，你要是丢了呢？」受彬耳尖唰地红了，小声说：「姐姐，我错了。」"
+          "value": "她身后，惠利也到了——她是看着定位找来的。她先上下打量了受彬一遍，才看向你：「明年年中那部戏的档期、圣诞——什么都先放一边。」又转向受彬，语气一下子凶起来：「人没事就好。手机丢了能找，你要是丢了呢？」受彬耳尖唰地红了，小声说：「姐姐，我错了。」"
         }
       ],
       "next": [
