@@ -12320,10 +12320,10 @@
     },
     {
       "id": "letter-gate",
-      "label": "读完那封信，你攥着手机，停了很久",
+      "label": "读完她的日记，你攥着手机，停了很久",
       "type": "choice",
       "event": "read",
-      "target": "note-letter",
+      "target": "note-diary",
       "conditions": [],
       "logic": "and",
       "actions": [],
@@ -12352,7 +12352,7 @@
         {
           "type": "notification",
           "key": "",
-          "value": "你把信轻轻放回原处，锁好屏——傍晚去首尔站，把手机送回它的主人手里。"
+          "value": "你把日记合上，锁好屏——傍晚去首尔站，把手机送回它的主人手里。"
         }
       ],
       "next": [],
@@ -12526,6 +12526,11 @@
       "conditions": [],
       "logic": "and",
       "actions": [
+        {
+          "type": "variable",
+          "key": "choseReturnPhoto",
+          "value": true
+        },
         {
           "type": "notification",
           "key": "",
