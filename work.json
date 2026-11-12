@@ -4161,6 +4161,246 @@
         "comments": []
       },
       {
+        "id": "kh-scare-c1",
+        "title": "언니",
+        "body": "……",
+        "richText": "",
+        "meta": {
+          "conversationId": "chat-hyeri",
+          "participants": "hyeri,owner"
+        },
+        "time": "2026-11-09 15:46",
+        "sender": "언니",
+        "avatar": "",
+        "kind": "text",
+        "media": "",
+        "hidden": false,
+        "unlock": "completed:scare-confess-1",
+        "password": "",
+        "folder": "",
+        "favorite": false,
+        "outgoing": false,
+        "read": false,
+        "likes": 0,
+        "comments": []
+      },
+      {
+        "id": "kh-scare-c2",
+        "title": "언니",
+        "body": "站在那儿，别动。",
+        "richText": "",
+        "meta": {
+          "conversationId": "chat-hyeri",
+          "participants": "hyeri,owner"
+        },
+        "time": "2026-11-09 15:46",
+        "sender": "언니",
+        "avatar": "",
+        "kind": "text",
+        "media": "",
+        "hidden": false,
+        "unlock": "completed:scare-confess-2",
+        "password": "",
+        "folder": "",
+        "favorite": false,
+        "outgoing": false,
+        "read": false,
+        "likes": 0,
+        "comments": []
+      },
+      {
+        "id": "kh-scare-c3",
+        "title": "언니",
+        "body": "手机别关机。我过去。",
+        "richText": "",
+        "meta": {
+          "conversationId": "chat-hyeri",
+          "participants": "hyeri,owner"
+        },
+        "time": "2026-11-09 15:47",
+        "sender": "언니",
+        "avatar": "",
+        "kind": "text",
+        "media": "",
+        "hidden": false,
+        "unlock": "completed:scare-confess-3",
+        "password": "",
+        "folder": "",
+        "favorite": false,
+        "outgoing": false,
+        "read": false,
+        "likes": 0,
+        "comments": []
+      },
+      {
+        "id": "kh-scare-t1",
+        "title": "언니",
+        "body": "是吗？那你说说看——我让你空出来的，是哪天？",
+        "richText": "",
+        "meta": {
+          "conversationId": "chat-hyeri",
+          "participants": "hyeri,owner"
+        },
+        "time": "2026-11-09 15:46",
+        "sender": "언니",
+        "avatar": "",
+        "kind": "text",
+        "media": "",
+        "hidden": false,
+        "unlock": "completed:scare-imp-1",
+        "password": "",
+        "folder": "",
+        "favorite": false,
+        "outgoing": false,
+        "read": false,
+        "likes": 0,
+        "comments": []
+      },
+      {
+        "id": "kh-scare-m1",
+        "title": "언니",
+        "body": "……日子倒是答对了。",
+        "richText": "",
+        "meta": {
+          "conversationId": "chat-hyeri",
+          "participants": "hyeri,owner"
+        },
+        "time": "2026-11-09 15:48",
+        "sender": "언니",
+        "avatar": "",
+        "kind": "text",
+        "media": "",
+        "hidden": false,
+        "unlock": "completed:scare-xmas-1",
+        "password": "",
+        "folder": "",
+        "favorite": false,
+        "outgoing": false,
+        "read": false,
+        "likes": 0,
+        "comments": []
+      },
+      {
+        "id": "kh-scare-m2",
+        "title": "언니",
+        "body": "可是受彬打字，从来不用『呀』。",
+        "richText": "",
+        "meta": {
+          "conversationId": "chat-hyeri",
+          "participants": "hyeri,owner"
+        },
+        "time": "2026-11-09 15:48",
+        "sender": "언니",
+        "avatar": "",
+        "kind": "text",
+        "media": "",
+        "hidden": false,
+        "unlock": "completed:scare-xmas-2",
+        "password": "",
+        "folder": "",
+        "favorite": false,
+        "outgoing": false,
+        "read": false,
+        "likes": 0,
+        "comments": []
+      },
+      {
+        "id": "kh-scare-m3",
+        "title": "언니",
+        "body": "你到底是谁。",
+        "richText": "",
+        "meta": {
+          "conversationId": "chat-hyeri",
+          "participants": "hyeri,owner"
+        },
+        "time": "2026-11-09 15:49",
+        "sender": "언니",
+        "avatar": "",
+        "kind": "text",
+        "media": "",
+        "hidden": false,
+        "unlock": "completed:scare-xmas-3",
+        "password": "",
+        "folder": "",
+        "favorite": false,
+        "outgoing": false,
+        "read": false,
+        "likes": 0,
+        "comments": []
+      },
+      {
+        "id": "kh-scare-f1",
+        "title": "언니",
+        "body": "错了。",
+        "richText": "",
+        "meta": {
+          "conversationId": "chat-hyeri",
+          "participants": "hyeri,owner"
+        },
+        "time": "2026-11-09 15:48",
+        "sender": "언니",
+        "avatar": "",
+        "kind": "text",
+        "media": "",
+        "hidden": false,
+        "unlock": "completed:scare-feb-1",
+        "password": "",
+        "folder": "",
+        "favorite": false,
+        "outgoing": false,
+        "read": false,
+        "likes": 0,
+        "comments": []
+      },
+      {
+        "id": "kh-scare-f2",
+        "title": "언니",
+        "body": "受彬不会答错这道题。",
+        "richText": "",
+        "meta": {
+          "conversationId": "chat-hyeri",
+          "participants": "hyeri,owner"
+        },
+        "time": "2026-11-09 15:48",
+        "sender": "언니",
+        "avatar": "",
+        "kind": "text",
+        "media": "",
+        "hidden": false,
+        "unlock": "completed:scare-feb-2",
+        "password": "",
+        "folder": "",
+        "favorite": false,
+        "outgoing": false,
+        "read": false,
+        "likes": 0,
+        "comments": []
+      },
+      {
+        "id": "kh-scare-bye",
+        "title": "언니",
+        "body": "好。我自己过来。",
+        "richText": "",
+        "meta": {
+          "conversationId": "chat-hyeri",
+          "participants": "hyeri,owner"
+        },
+        "time": "2026-11-09 15:52",
+        "sender": "언니",
+        "avatar": "",
+        "kind": "text",
+        "media": "",
+        "hidden": false,
+        "unlock": "completed:scare-call-declined",
+        "password": "",
+        "folder": "",
+        "favorite": false,
+        "outgoing": false,
+        "read": false,
+        "likes": 0,
+        "comments": []
+      },
+      {
         "id": "kx-01",
         "title": "秀雅",
         "body": "进展呢？？？",
@@ -9725,6 +9965,29 @@
         "comments": []
       },
       {
+        "id": "call-scare",
+        "title": "언니",
+        "body": "언니：……捡到手机的人，是吧。",
+        "richText": "",
+        "meta": {
+          "script": "incoming"
+        },
+        "time": "2026-11-09 08:12",
+        "sender": "언니",
+        "avatar": "data:image/webp;base64,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",
+        "kind": "call",
+        "media": "",
+        "hidden": true,
+        "unlock": "",
+        "password": "",
+        "folder": "",
+        "favorite": false,
+        "outgoing": false,
+        "read": false,
+        "likes": 0,
+        "comments": []
+      },
+      {
         "id": "call-stranger",
         "title": "010-XXXX-XXXX",
         "body": "（自动语音）您好，这里是首尔站快递柜服务中心。\n（自动语音）您的包裹已滞留超过 24 小时，取件码 6-2-0917。\n（自动语音）请机主本人尽快取件，谢谢。\n（对方已挂断——是一通快递柜的自动提醒，和她本人没什么关系。）",
@@ -9786,167 +10049,6 @@
         "kind": "call",
         "media": "",
         "hidden": false,
-        "unlock": "",
-        "password": "",
-        "folder": "",
-        "favorite": false,
-        "outgoing": false,
-        "read": false,
-        "likes": 0,
-        "comments": []
-      },
-      {
-        "id": "dial-scare-open",
-        "title": "언니",
-        "body": "（电话接通——对面先静了两秒）\n언니：说话。这个已读，是谁读的？",
-        "richText": "",
-        "meta": {
-          "role": "facescript"
-        },
-        "time": "2026-11-09 08:12",
-        "sender": "언니",
-        "avatar": "data:image/webp;base64,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",
-        "kind": "call",
-        "media": "",
-        "hidden": true,
-        "unlock": "",
-        "password": "",
-        "folder": "",
-        "favorite": false,
-        "outgoing": false,
-        "read": false,
-        "likes": 0,
-        "comments": []
-      },
-      {
-        "id": "dial-scare-confess",
-        "title": "언니",
-        "body": "你：姐姐，对不起。我是捡到这部手机的人，在首尔站。消息是我不小心点开的。\n언니：……\n언니：站在那儿，别动。\n언니：手机别关机。我过去。",
-        "richText": "",
-        "meta": {
-          "role": "facescript"
-        },
-        "time": "2026-11-09 08:12",
-        "sender": "언니",
-        "avatar": "data:image/webp;base64,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",
-        "kind": "call",
-        "media": "",
-        "hidden": true,
-        "unlock": "",
-        "password": "",
-        "folder": "",
-        "favorite": false,
-        "outgoing": false,
-        "read": false,
-        "likes": 0,
-        "comments": []
-      },
-      {
-        "id": "dial-scare-trap",
-        "title": "언니",
-        "body": "你：是我呀姐姐……刚睡醒，迷迷糊糊就点开了。\n언니：是吗？那你说说看——我让你空出来的，是哪天？",
-        "richText": "",
-        "meta": {
-          "role": "facescript"
-        },
-        "time": "2026-11-09 08:12",
-        "sender": "언니",
-        "avatar": "data:image/webp;base64,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",
-        "kind": "call",
-        "media": "",
-        "hidden": true,
-        "unlock": "",
-        "password": "",
-        "folder": "",
-        "favorite": false,
-        "outgoing": false,
-        "read": false,
-        "likes": 0,
-        "comments": []
-      },
-      {
-        "id": "dial-scare-xmas",
-        "title": "언니",
-        "body": "你：12月25日\n언니：……日子倒是答对了。\n언니：可是受彬接我电话，第一句从来不是这个。\n언니：你到底是谁。",
-        "richText": "",
-        "meta": {
-          "role": "facescript"
-        },
-        "time": "2026-11-09 08:12",
-        "sender": "언니",
-        "avatar": "data:image/webp;base64,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",
-        "kind": "call",
-        "media": "",
-        "hidden": true,
-        "unlock": "",
-        "password": "",
-        "folder": "",
-        "favorite": false,
-        "outgoing": false,
-        "read": false,
-        "likes": 0,
-        "comments": []
-      },
-      {
-        "id": "dial-scare-feb",
-        "title": "언니",
-        "body": "你：2月14日\n언니：错了。\n언니：受彬不会答错这道题。\n（通话结束）",
-        "richText": "",
-        "meta": {
-          "role": "facescript"
-        },
-        "time": "2026-11-09 08:12",
-        "sender": "언니",
-        "avatar": "data:image/webp;base64,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",
-        "kind": "call",
-        "media": "",
-        "hidden": true,
-        "unlock": "",
-        "password": "",
-        "folder": "",
-        "favorite": false,
-        "outgoing": false,
-        "read": false,
-        "likes": 0,
-        "comments": []
-      },
-      {
-        "id": "dial-scare-dodge",
-        "title": "언니",
-        "body": "（你攥着手机，没敢出声）\n언니：好。我自己过来。\n（通话结束）",
-        "richText": "",
-        "meta": {
-          "role": "facescript"
-        },
-        "time": "2026-11-09 08:12",
-        "sender": "언니",
-        "avatar": "data:image/webp;base64,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",
-        "kind": "call",
-        "media": "",
-        "hidden": true,
-        "unlock": "",
-        "password": "",
-        "folder": "",
-        "favorite": false,
-        "outgoing": false,
-        "read": false,
-        "likes": 0,
-        "comments": []
-      },
-      {
-        "id": "dial-scare-silence",
-        "title": "언니",
-        "body": "（你攥着手机，没敢出声）\n언니：……捡到手机的人，是吧。\n언니：别挂。我过去。",
-        "richText": "",
-        "meta": {
-          "role": "facescript"
-        },
-        "time": "2026-11-09 08:12",
-        "sender": "언니",
-        "avatar": "data:image/webp;base64,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",
-        "kind": "call",
-        "media": "",
-        "hidden": true,
         "unlock": "",
         "password": "",
         "folder": "",
@@ -13697,6 +13799,7 @@
         }
       ],
       "next": [
+        "scare-choice",
         "stage-3-gate"
       ],
       "once": true,
@@ -13704,34 +13807,27 @@
       "y": 0
     },
     {
-      "id": "scare-dial",
-      "label": "拨打惠利 · 惊魂对峙入口",
+      "id": "dial-hyeri-flag",
+      "label": "拨打惠利 · 落旗",
       "type": "event",
       "event": "dial",
       "target": "hyeri",
-      "conditions": [
+      "conditions": [],
+      "logic": "and",
+      "actions": [
         {
-          "key": "completed:scare-1",
-          "op": "eq",
+          "type": "variable",
+          "key": "dialedHyeri",
           "value": true
-        },
-        {
-          "key": "scareChoice",
-          "op": "eq",
-          "value": ""
         }
       ],
-      "logic": "and",
-      "actions": [],
-      "next": [
-        "scare-stance"
-      ],
+      "next": [],
       "once": true,
       "x": 0,
       "y": 0
     },
     {
-      "id": "scare-stance",
+      "id": "scare-choice",
       "label": "她还在等。已读，是谁读的——这句话，你得接。",
       "type": "choice",
       "event": "",
@@ -13750,7 +13846,7 @@
     },
     {
       "id": "scare-confess",
-      "label": "坦白",
+      "label": "坦白 · 我是捡到手机的人",
       "type": "event",
       "event": "",
       "target": "",
@@ -13761,6 +13857,80 @@
           "type": "variable",
           "key": "scareChoice",
           "value": "confess"
+        },
+        {
+          "type": "message",
+          "key": "kakao:chat-hyeri",
+          "value": "姐姐，对不起。我是捡到这部手机的人，在首尔站。消息是我不小心点开的。"
+        }
+      ],
+      "next": [
+        "scare-confess-1"
+      ],
+      "once": true,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "delayMs": 2500,
+      "id": "scare-confess-1",
+      "label": "惠利回话 · 坦白一",
+      "type": "delay",
+      "event": "",
+      "target": "",
+      "conditions": [],
+      "logic": "and",
+      "actions": [
+        {
+          "type": "notification",
+          "key": "",
+          "value": "KakaoTalk · 언니：……"
+        }
+      ],
+      "next": [
+        "scare-confess-2"
+      ],
+      "once": true,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "delayMs": 1800,
+      "id": "scare-confess-2",
+      "label": "惠利回话 · 坦白二",
+      "type": "delay",
+      "event": "",
+      "target": "",
+      "conditions": [],
+      "logic": "and",
+      "actions": [
+        {
+          "type": "notification",
+          "key": "",
+          "value": "KakaoTalk · 언니：站在那儿，别动。"
+        }
+      ],
+      "next": [
+        "scare-confess-3"
+      ],
+      "once": true,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "delayMs": 1800,
+      "id": "scare-confess-3",
+      "label": "惠利回话 · 坦白三",
+      "type": "delay",
+      "event": "",
+      "target": "",
+      "conditions": [],
+      "logic": "and",
+      "actions": [
+        {
+          "type": "notification",
+          "key": "",
+          "value": "KakaoTalk · 언니：手机别关机。我过去。"
         }
       ],
       "next": [],
@@ -13770,23 +13940,7 @@
     },
     {
       "id": "scare-impersonate",
-      "label": "装受彬",
-      "type": "event",
-      "event": "",
-      "target": "",
-      "conditions": [],
-      "logic": "and",
-      "actions": [],
-      "next": [
-        "scare-date"
-      ],
-      "once": true,
-      "x": 0,
-      "y": 0
-    },
-    {
-      "id": "scare-silence",
-      "label": "一声不吭",
+      "label": "装受彬 · 是我呀姐姐……",
       "type": "event",
       "event": "",
       "target": "",
@@ -13794,18 +13948,43 @@
       "logic": "and",
       "actions": [
         {
-          "type": "variable",
-          "key": "scareChoice",
-          "value": "silence"
+          "type": "message",
+          "key": "kakao:chat-hyeri",
+          "value": "是我呀姐姐……刚睡醒，迷迷糊糊就点开了。"
         }
       ],
-      "next": [],
+      "next": [
+        "scare-imp-1"
+      ],
       "once": true,
       "x": 0,
       "y": 0
     },
     {
-      "id": "scare-date",
+      "delayMs": 3000,
+      "id": "scare-imp-1",
+      "label": "惠利反问",
+      "type": "delay",
+      "event": "",
+      "target": "",
+      "conditions": [],
+      "logic": "and",
+      "actions": [
+        {
+          "type": "notification",
+          "key": "",
+          "value": "KakaoTalk · 언니：是吗？那你说说看——我让你空出来的，是哪天？"
+        }
+      ],
+      "next": [
+        "scare-date-choice"
+      ],
+      "once": true,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "id": "scare-date-choice",
       "label": "我让你空出来的，是哪天？",
       "type": "choice",
       "event": "",
@@ -13835,6 +14014,80 @@
           "type": "variable",
           "key": "scareChoice",
           "value": "impersonate-mild"
+        },
+        {
+          "type": "message",
+          "key": "kakao:chat-hyeri",
+          "value": "12月25日"
+        }
+      ],
+      "next": [
+        "scare-xmas-1"
+      ],
+      "once": true,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "delayMs": 2500,
+      "id": "scare-xmas-1",
+      "label": "惠利回话 · 答对一",
+      "type": "delay",
+      "event": "",
+      "target": "",
+      "conditions": [],
+      "logic": "and",
+      "actions": [
+        {
+          "type": "notification",
+          "key": "",
+          "value": "KakaoTalk · 언니：……日子倒是答对了。"
+        }
+      ],
+      "next": [
+        "scare-xmas-2"
+      ],
+      "once": true,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "delayMs": 1800,
+      "id": "scare-xmas-2",
+      "label": "惠利回话 · 答对二",
+      "type": "delay",
+      "event": "",
+      "target": "",
+      "conditions": [],
+      "logic": "and",
+      "actions": [
+        {
+          "type": "notification",
+          "key": "",
+          "value": "KakaoTalk · 언니：可是受彬打字，从来不用『呀』。"
+        }
+      ],
+      "next": [
+        "scare-xmas-3"
+      ],
+      "once": true,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "delayMs": 1800,
+      "id": "scare-xmas-3",
+      "label": "惠利回话 · 答对三",
+      "type": "delay",
+      "event": "",
+      "target": "",
+      "conditions": [],
+      "logic": "and",
+      "actions": [
+        {
+          "type": "notification",
+          "key": "",
+          "value": "KakaoTalk · 언니：你到底是谁。"
         }
       ],
       "next": [],
@@ -13855,16 +14108,69 @@
           "type": "variable",
           "key": "scareChoice",
           "value": "impersonate-call"
+        },
+        {
+          "type": "message",
+          "key": "kakao:chat-hyeri",
+          "value": "2月14日"
         }
       ],
-      "next": [],
+      "next": [
+        "scare-feb-1"
+      ],
+      "once": true,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "delayMs": 2500,
+      "id": "scare-feb-1",
+      "label": "惠利回话 · 答错一",
+      "type": "delay",
+      "event": "",
+      "target": "",
+      "conditions": [],
+      "logic": "and",
+      "actions": [
+        {
+          "type": "notification",
+          "key": "",
+          "value": "KakaoTalk · 언니：错了。"
+        }
+      ],
+      "next": [
+        "scare-feb-2"
+      ],
+      "once": true,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "delayMs": 1800,
+      "id": "scare-feb-2",
+      "label": "惠利回话 · 答错二",
+      "type": "delay",
+      "event": "",
+      "target": "",
+      "conditions": [],
+      "logic": "and",
+      "actions": [
+        {
+          "type": "notification",
+          "key": "",
+          "value": "KakaoTalk · 언니：受彬不会答错这道题。"
+        }
+      ],
+      "next": [
+        "scare-call-delay"
+      ],
       "once": true,
       "x": 0,
       "y": 0
     },
     {
       "id": "scare-date-dodge",
-      "label": "沉默不答",
+      "label": "不敢答，按灭屏幕",
       "type": "event",
       "event": "",
       "target": "",
@@ -13875,6 +14181,121 @@
           "type": "variable",
           "key": "scareChoice",
           "value": "impersonate-call"
+        }
+      ],
+      "next": [
+        "scare-call-delay"
+      ],
+      "once": true,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "id": "scare-silence",
+      "label": "不回 · 按灭屏幕",
+      "type": "event",
+      "event": "",
+      "target": "",
+      "conditions": [],
+      "logic": "and",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "scareChoice",
+          "value": "silence"
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "你把屏幕按灭，心跳得飞快。已读就是已读，收不回去了。"
+        }
+      ],
+      "next": [
+        "scare-call-delay"
+      ],
+      "once": true,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "delayMs": 6000,
+      "id": "scare-call-delay",
+      "label": "惠利来电 · 惊魂",
+      "type": "delay",
+      "event": "",
+      "target": "",
+      "conditions": [],
+      "logic": "and",
+      "actions": [
+        {
+          "type": "call",
+          "key": "call-scare",
+          "value": "언니"
+        }
+      ],
+      "next": [],
+      "once": true,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "id": "scare-call-answered",
+      "label": "接听惠利来电 · 惊魂",
+      "type": "event",
+      "event": "callAnswered",
+      "target": "call-scare",
+      "conditions": [],
+      "logic": "and",
+      "actions": [],
+      "next": [
+        "scare-call-wrap"
+      ],
+      "once": true,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "delayMs": 8000,
+      "id": "scare-call-wrap",
+      "label": "惊魂通话收尾",
+      "type": "delay",
+      "event": "",
+      "target": "",
+      "conditions": [],
+      "logic": "and",
+      "actions": [],
+      "next": [],
+      "once": true,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "id": "scare-call-ended",
+      "label": "挂断后来到傍晚 · 惊魂",
+      "type": "event",
+      "event": "callEnded",
+      "target": "call-scare",
+      "conditions": [],
+      "logic": "and",
+      "actions": [],
+      "next": [],
+      "once": true,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "id": "scare-call-declined",
+      "label": "拒接惠利来电 · 惊魂",
+      "type": "event",
+      "event": "callDeclined",
+      "target": "call-scare",
+      "conditions": [],
+      "logic": "and",
+      "actions": [
+        {
+          "type": "notification",
+          "key": "",
+          "value": "KakaoTalk · 언니：好。我自己过来。"
         }
       ],
       "next": [],
@@ -14797,7 +15218,8 @@
     "repliedForHer": false,
     "answeredStranger": false,
     "declinedStranger": false,
-    "scareChoice": ""
+    "scareChoice": "",
+    "dialedHyeri": false
   },
   "mode": "mixed"
 }
